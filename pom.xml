@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun facebook Releases Nexus Repository</name>
-	      <url>http://13.127.177.102:9945/rekhas/repository/facebook-release/</url>
+	      <url>http://13.126.40.174:9945/rekhas/repository/facebook-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun facebook Snapshot Nexus Repository </name>
-	      <url>http://13.127.177.102:9945/rekhas/repository/facebook-snapshot/</url>
+	      <url>http://13.126.40.174:9945/rekhas/repository/facebook-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
