@@ -5,11 +5,11 @@ node
     {
      git branch: 'development', credentialsId: '81d5ecb0-8160-415d-85d4-53cb89bf24a2', url: 'https://github.com/Devops-nov-2022/maven-web-application.git'   
 }
+  /*
 stage('branch')
 {
 sh "${mavenHome}/bin/mvn clean package"
 }
-/*
 stage('executesonarqube')
 {
 sh "${mavenHome}/bin/mvn clean sonar:sonar"
