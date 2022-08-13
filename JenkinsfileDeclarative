@@ -29,7 +29,6 @@ stage('executesonarqube report')
         sh "mvn clean sonar:sonar"
     }
 }
-/*
 stage('uploadartifactintonexus')
 {
     steps
@@ -47,7 +46,6 @@ stage('deploytomcat')
     }
     }
 }
-*/
 post {
   always {
     emailext body: '''build over..,
@@ -66,5 +64,4 @@ Rekha S''', subject: 'build over..', to: 'rekhareddy0807@gmail.com'
   }
 }
 
-}
 }
