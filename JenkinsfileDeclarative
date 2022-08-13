@@ -22,6 +22,7 @@ stage('build'){
         sh "mvn clean package"
     }
 }
+/*
 stage('executesonarqube report')
 {
     steps
@@ -45,6 +46,7 @@ stage('deploytomcat')
         }
     }
     }
+    */
 }
 post {
   always {
